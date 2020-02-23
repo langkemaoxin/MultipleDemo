@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4522649-36ed-49f9-b8be-9abe893cb6df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rex/chapter2/T222_synchronizedOneThreadIn/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rex/chapter2/T221/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rex/chapter2/T221/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MutipleDemoConlection.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/MutipleDemoConlection.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,98 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T215_PublicVar/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T216_synLockIn_1/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T216_synLockIn_2/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T217_throwExceptionNoLock/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T218_synNotExtends/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="84" column="62" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T221/Run.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T222_synchronizedOneThreadIn/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
-              <folding>
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1364#1365#0" expanded="true" />
-                <element signature="e#1396#1397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter1/T182_suspend_resume_LockStop/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/develop/jdk1.8/src.zip!/java/io/PrintStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21000">
-              <caret line="751" column="9" selection-start-line="748" selection-start-column="4" selection-end-line="751" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter1/T183_suspend_resume_nosameValue/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter1/T19_yield/Run.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="207">
+              <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -145,8 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/rex/t6/Run1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/rex/t6/Run3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rex/t7/MyThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rex/t7/CountOoperate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rex/T8/MyThread1.java" />
@@ -196,6 +103,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/rex/chapter2/T218_synNotExtends.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rex/chapter2/T218_synNotExtends/Run.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rex/chapter2/T221/Run.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rex/chapter2/T222_synchronizedOneThreadIn/T217_throwExceptionNoLock/Run.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rex/chapter2/T222_synchronizedOneThreadIn/Run.java" />
       </list>
     </option>
   </component>
@@ -219,7 +128,9 @@
     <option name="width" value="1546" />
     <option name="height" value="830" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -275,7 +186,70 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rex" type="462c0819:PsiDirectoryNode" />
               <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="T217_throwExceptionNoLock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mutipletest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultipleDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rex" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="T217_throwExceptionNoLock" type="462c0819:PsiDirectoryNode" />
+              <item name="Run.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="mutipletest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultipleDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rex" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="T218_synNotExtends" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mutipletest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultipleDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rex" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="T218_synNotExtends" type="462c0819:PsiDirectoryNode" />
+              <item name="Run.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="mutipletest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultipleDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rex" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
               <item name="T221" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mutipletest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultipleDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rex" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="T222_synchronizedOneThreadIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mutipletest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultipleDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rex" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="T222_synchronizedOneThreadIn" type="462c0819:PsiDirectoryNode" />
+              <item name="Run.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -289,7 +263,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/rex/chapter2/T214_synchronizedMethodLockObject2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/rex/chapter2/T222_synchronizedOneThreadIn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -300,11 +274,11 @@
       <recent name="com.rex.t7" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\MutipleDemoConlection\MultipleDemo\src\main\java\com\rex\chapter2\T222_synchronizedOneThreadIn" />
       <recent name="D:\JavaStudy\MutipleDemoConlection\src\main\java\com\rex\chapter2\T214_synchronizedMethodLockObject2" />
       <recent name="D:\JavaStudy\MutipleDemoConlection\src\main\java\com\rex\chapter2\T213_TwoObjectTwoLock" />
       <recent name="D:\JavaStudy\MutipleDemoConlection\src\main\java\com\rex\chapter2\T213_TwoObjectTwoLock.Run" />
       <recent name="D:\JavaStudy\MutipleDemoConlection\src\main\java\com\rex" />
-      <recent name="D:\JavaStudy\MutipleDemoConlection\src\main\java\com\rex\chapter2\T1_HasSelfPrivateNum" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run (2)">
+  <component name="RunManager" selected="Application.Run (3)">
     <configuration name="Run (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rex.chapter2.T216_synLockIn_2.Run" />
       <module name="MutipleDemoConlection" />
@@ -339,6 +313,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.rex.chapter2.T221.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rex.chapter2.T222_synchronizedOneThreadIn.Run" />
+      <module name="mutiple-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rex.chapter2.T222_synchronizedOneThreadIn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,26 +359,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rex.chapter2.T215_PublicVar.Run" />
-      <module name="MutipleDemoConlection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rex.chapter2.T215_PublicVar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Run (3)" />
         <item itemvalue="Application.Run (2)" />
         <item itemvalue="Application.Run (5)" />
         <item itemvalue="Application.Run (4)" />
         <item itemvalue="Application.Run (1)" />
-        <item itemvalue="Application.Run" />
       </list>
     </recent_temporary>
   </component>
@@ -409,19 +383,19 @@
       <workItem from="1582341211646" duration="8823000" />
       <workItem from="1582359398120" duration="9778000" />
       <workItem from="1582422016390" duration="6983000" />
-      <workItem from="1582443760017" duration="1436000" />
+      <workItem from="1582443760017" duration="1967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43580000" />
+    <option name="totallyTimeSpent" value="44111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="1" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7641682" visible="true" weight="0.30777538" />
-      <window_info id="Structure" order="1" sideWeight="0.23583181" side_tool="true" visible="true" weight="0.30777538" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7627812" visible="true" weight="0.30777538" />
+      <window_info id="Structure" order="1" sideWeight="0.23721881" side_tool="true" visible="true" weight="0.30777538" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -429,7 +403,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32951945" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946004" visible="true" weight="0.3727064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946004" visible="true" weight="0.4392202" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,13 +441,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter1/randomTest/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="74" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter1/t2/MyRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -781,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T218_synNotExtends/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="84" column="62" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter1/T182_suspend_resume_LockStop/Run.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -818,14 +778,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T221/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
+        <state relative-caret-position="690">
+          <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
           <folding>
             <element signature="e#980#981#0" expanded="true" />
             <element signature="e#1012#1013#0" expanded="true" />
             <element signature="e#1364#1365#0" expanded="true" />
             <element signature="e#1396#1397#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T218_synNotExtends/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rex/chapter2/T222_synchronizedOneThreadIn/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
         </state>
       </provider>
     </entry>
