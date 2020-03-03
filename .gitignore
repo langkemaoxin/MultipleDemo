@@ -23,3 +23,5 @@
 hs_err_pid*
 .idea/workspace.xml
 .idea/workspace.xml
+.idea/workspace.xml
+target/classes/META-INF/mutiple-test.kotlin_module
