@@ -1,6 +1,5 @@
-package com.rex.chapter4.T4_1_20_LockMethodTest1_getWaitQueueLengtWithCondition;
+package com.rex.chapter4.T4_1_10_LockMethodTest1_getQueueLenth;
 
-import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -13,19 +12,20 @@ import java.util.concurrent.locks.ReentrantLock;
  *
  *
  * 演示效果：
- * 当前等待的线程数：10
+ * 进入了方法一
+ * 当前正在等待的线程数量为：9
  *
- * getWaitQueueLength() 的作用是返回等待与此锁定相关的给定条件Condition的线程估计数
- * 
+ * getQueueLength() 的作用是返回正等待获取此锁定的线程估计数
+ *
  */
 public class Run {
     public static void main(String[] args) throws InterruptedException {
 
-
+        //只有一份service，然后新建多个线程类，抢占式的执行里面的方法
         final Service service=new Service();
 
-
-        Runnable runnable =new Runnable() {
+        //声明一个可以执行的类型，就是一个线程类
+        Runnable runnable = new Runnable() {
             @Override
             public void run() {
                 service.serviceMethod1();
@@ -43,23 +43,18 @@ public class Run {
 
         Thread.sleep(200);
 
-        service.notityMethod();
+        System.out.println("当前正在等待的线程数量为："+service.getQueueLength());
     }
 }
 
 class Service {
     private ReentrantLock lock = new ReentrantLock();
 
-    //锁分组一
-    private Condition condition1=lock.newCondition();
-
-    //锁分组二
-    private Condition condition2=lock.newCondition();
-
     public void serviceMethod1() {
         try {
             lock.lock();
-            condition1.await();
+            System.out.println("进入了方法一");
+            Thread.sleep(Integer.MAX_VALUE);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
@@ -67,16 +62,9 @@ class Service {
         }
     }
 
-    public void notityMethod(){
-        try{
-            lock.lock();
-            System.out.println("当前等待的线程数："+lock.getWaitQueueLength(condition1));
-        }finally {
-            lock.unlock();
-        }
+    public int getQueueLength(){
+        return lock.getQueueLength();
     }
-
-
 }
 
 

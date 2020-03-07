@@ -1,5 +1,8 @@
-package com.rex.chapter4.T4_1_20_LockMethodTest1_getQueueLenth;
+package com.rex.chapter4.T4_1_11_LockMethodTest_HasWaiters;
 
+import sun.awt.windows.ThemeReader;
+
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -8,24 +11,19 @@ import java.util.concurrent.locks.ReentrantLock;
  * @Author GY.C
  * @Date 2020/3/7 14:38
  * @Version 1.0
- *
+ * <p>
  *
  *
  * 演示效果：
- * 进入了方法一
- * 当前正在等待的线程数量为：9
+ * true 线程数：10
  *
- * getQueueLength() 的作用是返回正等待获取此锁定的线程估计数
- *
+ * hasWaiters(Condition) 作用是查询是否有线程正在等待与此锁有关的Condition条件
  */
 public class Run {
     public static void main(String[] args) throws InterruptedException {
+        final Service service = new Service();
 
-        //只有一份service，然后新建多个线程类，抢占式的执行里面的方法
-        final Service service=new Service();
-
-        //声明一个可以执行的类型，就是一个线程类
-        Runnable runnable = new Runnable() {
+        Runnable runnable=new Runnable() {
             @Override
             public void run() {
                 service.serviceMethod1();
@@ -43,17 +41,19 @@ public class Run {
 
         Thread.sleep(200);
 
-        System.out.println("当前正在等待的线程数量为："+service.getQueueLength());
+        service.notity();
+
     }
 }
 
 class Service {
-    private ReentrantLock lock = new ReentrantLock();
+    public ReentrantLock lock = new ReentrantLock();
+    private Condition condition=lock.newCondition();
 
     public void serviceMethod1() {
         try {
             lock.lock();
-            System.out.println("进入了方法一");
+            condition.await();
             Thread.sleep(Integer.MAX_VALUE);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -62,9 +62,17 @@ class Service {
         }
     }
 
-    public int getQueueLength(){
-        return lock.getQueueLength();
+    public void notity() {
+        try {
+            lock.lock();
+
+            System.out.println(lock.hasWaiters(condition) +" 线程数："+lock.getWaitQueueLength(condition));
+
+            condition.signal();
+
+        } finally {
+            lock.unlock();
+        }
     }
+
 }
-
-

@@ -1,4 +1,4 @@
-package com.rex.chapter4.T4_1_20_LockMethodTest1_getHoldCount;
+package com.rex.chapter4.T4_1_10_LockMethodTest1_getHoldCount;
 
 import java.util.concurrent.locks.ReentrantLock;
 
